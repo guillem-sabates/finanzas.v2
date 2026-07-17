@@ -1,0 +1,14 @@
+{
+  "name": "plataforma-finanzas",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.48.2",
+    "vitest": "2.1.8"
+  }
+}
